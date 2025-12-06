@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff8dc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ffb6c1;
+}
+
+tr:hover {
+  background-color: #ffe4e1;
+}
+
+#sparkline-AMZN svg path {
+  stroke: #ff1493;
+}
+
+#sparkline-IBM svg path {
+  stroke: #ff69b4;
+}
+
+#sparkline-DOW svg path {
+  stroke: #db7093;
+}
+
+#sparkline-NASDAQ svg path {
+  stroke: #c71585;
+}
